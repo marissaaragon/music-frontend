@@ -1,0 +1,43 @@
+.add-music-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,50,0.15);
+  color: white;
+}
+
+.add-music-form h2 {
+  margin-bottom: 15px;
+}
+
+.add-music-form input {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.add-music-form input:focus {
+  outline: none;
+  box-shadow: 0 0 6px #ffd700;
+}
+
+.add-music-form button {
+  background-color: #3a8406;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.add-music-form button:hover {
+  background-color: #ffbf00;
+}
